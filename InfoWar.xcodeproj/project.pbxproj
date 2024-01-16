@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC21C1372B4FC45B003FB973 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC21C1362B4FC45B003FB973 /* Config.plist */; };
+		EC21C1392B4FC4AF003FB973 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC21C1382B4FC4AF003FB973 /* Config.swift */; };
+		EC21C13F2B4FDB8F003FB973 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC21C13E2B4FDB8F003FB973 /* UIViewController+Extension.swift */; };
+		EC21C1982B502B70003FB973 /* wars.txt in Resources */ = {isa = PBXBuildFile; fileRef = EC21C1952B502B70003FB973 /* wars.txt */; };
+		EC21C19A2B502C6F003FB973 /* InfoWarLocalApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC21C1992B502C6F003FB973 /* InfoWarLocalApiService.swift */; };
+		EC21C1A02B503069003FB973 /* LocalApiFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC21C19F2B503069003FB973 /* LocalApiFeedViewController.swift */; };
+		EC21C1A22B50784F003FB973 /* LocalApiFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC21C1A12B50784F003FB973 /* LocalApiFeedCollectionViewCell.swift */; };
+		EC21C1A52B507E41003FB973 /* LocalApiFeedCollectionViewIslemleri.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC21C1A42B507E41003FB973 /* LocalApiFeedCollectionViewIslemleri.swift */; };
+		EC49CA4A2B45AE570083DB6B /* InfoWarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC49CA492B45AE570083DB6B /* InfoWarTableViewCell.swift */; };
+		EC572D712B4602D500B4CD74 /* UpscalaDataDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC572D702B4602D500B4CD74 /* UpscalaDataDetailVC.swift */; };
+		EC572D732B460BDC00B4CD74 /* WarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC572D722B460BDC00B4CD74 /* WarsModel.swift */; };
+		EC5DBE982B50C09900E6C1BD /* LocalDataWarsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5DBE972B50C09900E6C1BD /* LocalDataWarsDetailVC.swift */; };
+		ECAAC4192B566BED0065F2DF /* OpenAIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAC4182B566BED0065F2DF /* OpenAIModel.swift */; };
+		ECCD7B942B3EF8CB0029C89B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = ECCD7B932B3EF8CB0029C89B /* Alamofire */; };
+		ECDC78F12B4E7C6800F5931B /* ChatGPTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDC78F02B4E7C6800F5931B /* ChatGPTViewController.swift */; };
+		ECDC78F32B4E7D0000F5931B /* InfoWarChatGptAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDC78F22B4E7D0000F5931B /* InfoWarChatGptAPICaller.swift */; };
+		ECDC78F62B4E7D3200F5931B /* SwiftOpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = ECDC78F52B4E7D3200F5931B /* SwiftOpenAI */; };
+		ECDC78F92B4E7D4300F5931B /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = ECDC78F82B4E7D4300F5931B /* OpenAISwift */; };
 		ECFC07282B3CC842009F8102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC07272B3CC842009F8102 /* AppDelegate.swift */; };
 		ECFC072A2B3CC842009F8102 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC07292B3CC842009F8102 /* SceneDelegate.swift */; };
 		ECFC072C2B3CC842009F8102 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC072B2B3CC842009F8102 /* ViewController.swift */; };
@@ -16,6 +34,10 @@
 		ECFC073F2B3CC843009F8102 /* InfoWarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC073E2B3CC843009F8102 /* InfoWarTests.swift */; };
 		ECFC07492B3CC843009F8102 /* InfoWarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC07482B3CC843009F8102 /* InfoWarUITests.swift */; };
 		ECFC074B2B3CC843009F8102 /* InfoWarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC074A2B3CC843009F8102 /* InfoWarUITestsLaunchTests.swift */; };
+		ECFC075D2B3CC89D009F8102 /* InfoWarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC075C2B3CC89D009F8102 /* InfoWarModel.swift */; };
+		ECFC075F2B3CC934009F8102 /* InfoWarUpSalaApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC075E2B3CC934009F8102 /* InfoWarUpSalaApiService.swift */; };
+		ECFC07652B3CD136009F8102 /* InfoWarUpsalaFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC07632B3CD136009F8102 /* InfoWarUpsalaFeedViewController.swift */; };
+		ECFC076A2B3CD183009F8102 /* InfoWarTableViewIslemleri.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC07692B3CD183009F8102 /* InfoWarTableViewIslemleri.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +58,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC21C1362B4FC45B003FB973 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		EC21C1382B4FC4AF003FB973 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		EC21C13E2B4FDB8F003FB973 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		EC21C1952B502B70003FB973 /* wars.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wars.txt; sourceTree = "<group>"; };
+		EC21C1992B502C6F003FB973 /* InfoWarLocalApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWarLocalApiService.swift; sourceTree = "<group>"; };
+		EC21C19F2B503069003FB973 /* LocalApiFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalApiFeedViewController.swift; sourceTree = "<group>"; };
+		EC21C1A12B50784F003FB973 /* LocalApiFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalApiFeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		EC21C1A42B507E41003FB973 /* LocalApiFeedCollectionViewIslemleri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalApiFeedCollectionViewIslemleri.swift; sourceTree = "<group>"; };
+		EC49CA492B45AE570083DB6B /* InfoWarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWarTableViewCell.swift; sourceTree = "<group>"; };
+		EC572D702B4602D500B4CD74 /* UpscalaDataDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpscalaDataDetailVC.swift; sourceTree = "<group>"; };
+		EC572D722B460BDC00B4CD74 /* WarsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarsModel.swift; sourceTree = "<group>"; };
+		EC5DBE972B50C09900E6C1BD /* LocalDataWarsDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataWarsDetailVC.swift; sourceTree = "<group>"; };
+		ECAAC4182B566BED0065F2DF /* OpenAIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIModel.swift; sourceTree = "<group>"; };
+		ECDC78F02B4E7C6800F5931B /* ChatGPTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTViewController.swift; sourceTree = "<group>"; };
+		ECDC78F22B4E7D0000F5931B /* InfoWarChatGptAPICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWarChatGptAPICaller.swift; sourceTree = "<group>"; };
 		ECFC07242B3CC842009F8102 /* InfoWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFC07272B3CC842009F8102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECFC07292B3CC842009F8102 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +86,10 @@
 		ECFC07442B3CC843009F8102 /* InfoWarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfoWarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFC07482B3CC843009F8102 /* InfoWarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWarUITests.swift; sourceTree = "<group>"; };
 		ECFC074A2B3CC843009F8102 /* InfoWarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECFC075C2B3CC89D009F8102 /* InfoWarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWarModel.swift; sourceTree = "<group>"; };
+		ECFC075E2B3CC934009F8102 /* InfoWarUpSalaApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWarUpSalaApiService.swift; sourceTree = "<group>"; };
+		ECFC07632B3CD136009F8102 /* InfoWarUpsalaFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWarUpsalaFeedViewController.swift; sourceTree = "<group>"; };
+		ECFC07692B3CD183009F8102 /* InfoWarTableViewIslemleri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWarTableViewIslemleri.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDC78F62B4E7D3200F5931B /* SwiftOpenAI in Frameworks */,
+				ECDC78F92B4E7D4300F5931B /* OpenAISwift in Frameworks */,
+				ECCD7B942B3EF8CB0029C89B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +120,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC21C13D2B4FDB65003FB973 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EC21C13E2B4FDB8F003FB973 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EC21C1922B502B59003FB973 /* WarsJsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				EC21C1952B502B70003FB973 /* wars.txt */,
+			);
+			path = WarsJsonFile;
+			sourceTree = "<group>";
+		};
+		EC21C1A32B507DF2003FB973 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				EC21C1A42B507E41003FB973 /* LocalApiFeedCollectionViewIslemleri.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		EC5DBE952B50C05100E6C1BD /* LocalDataWarsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EC5DBE962B50C07A00E6C1BD /* View */,
+			);
+			path = LocalDataWarsDetail;
+			sourceTree = "<group>";
+		};
+		EC5DBE962B50C07A00E6C1BD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC5DBE972B50C09900E6C1BD /* LocalDataWarsDetailVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECDC78FA2B4E860800F5931B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC78FD2B4E866C00F5931B /* LocalDataWarsFeed */,
+				EC5DBE952B50C05100E6C1BD /* LocalDataWarsDetail */,
+				ECDC78FB2B4E861900F5931B /* UpscalaDataWarsFeed */,
+				ECDC79032B4E8CFC00F5931B /* UpscalaDataDetailVC */,
+				ECDC78FC2B4E865200F5931B /* WarChatBot */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		ECDC78FB2B4E861900F5931B /* UpscalaDataWarsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC79022B4E8B6400F5931B /* Cell */,
+				ECDC79002B4E898300F5931B /* View */,
+			);
+			path = UpscalaDataWarsFeed;
+			sourceTree = "<group>";
+		};
+		ECDC78FC2B4E865200F5931B /* WarChatBot */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC79062B4E8FEF00F5931B /* View */,
+			);
+			path = WarChatBot;
+			sourceTree = "<group>";
+		};
+		ECDC78FD2B4E866C00F5931B /* LocalDataWarsFeed */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC78FF2B4E896900F5931B /* View */,
+			);
+			path = LocalDataWarsFeed;
+			sourceTree = "<group>";
+		};
+		ECDC78FF2B4E896900F5931B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC21C1A32B507DF2003FB973 /* SubView */,
+				EC21C19F2B503069003FB973 /* LocalApiFeedViewController.swift */,
+				EC21C1A12B50784F003FB973 /* LocalApiFeedCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECDC79002B4E898300F5931B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC07682B3CD166009F8102 /* SubView */,
+				ECFC07632B3CD136009F8102 /* InfoWarUpsalaFeedViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECDC79022B4E8B6400F5931B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC49CA492B45AE570083DB6B /* InfoWarTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		ECDC79032B4E8CFC00F5931B /* UpscalaDataDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				EC572D702B4602D500B4CD74 /* UpscalaDataDetailVC.swift */,
+			);
+			path = UpscalaDataDetailVC;
+			sourceTree = "<group>";
+		};
+		ECDC79062B4E8FEF00F5931B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECDC78F02B4E7C6800F5931B /* ChatGPTViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		ECFC071B2B3CC842009F8102 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +263,14 @@
 		ECFC07262B3CC842009F8102 /* InfoWar */ = {
 			isa = PBXGroup;
 			children = (
-				ECFC07272B3CC842009F8102 /* AppDelegate.swift */,
-				ECFC07292B3CC842009F8102 /* SceneDelegate.swift */,
-				ECFC072B2B3CC842009F8102 /* ViewController.swift */,
-				ECFC072D2B3CC842009F8102 /* Main.storyboard */,
-				ECFC07302B3CC843009F8102 /* Assets.xcassets */,
-				ECFC07322B3CC843009F8102 /* LaunchScreen.storyboard */,
+				EC21C1922B502B59003FB973 /* WarsJsonFile */,
+				EC21C13D2B4FDB65003FB973 /* Extension */,
+				ECFC075B2B3CC885009F8102 /* Service */,
+				ECFC075A2B3CC872009F8102 /* Model */,
+				ECDC78FA2B4E860800F5931B /* Screens */,
+				ECFC07572B3CC854009F8102 /* Core */,
 				ECFC07352B3CC843009F8102 /* Info.plist */,
+				EC21C1362B4FC45B003FB973 /* Config.plist */,
 			);
 			path = InfoWar;
 			sourceTree = "<group>";
@@ -127,6 +292,48 @@
 			path = InfoWarUITests;
 			sourceTree = "<group>";
 		};
+		ECFC07572B3CC854009F8102 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC07272B3CC842009F8102 /* AppDelegate.swift */,
+				ECFC07292B3CC842009F8102 /* SceneDelegate.swift */,
+				ECFC072B2B3CC842009F8102 /* ViewController.swift */,
+				ECFC072D2B3CC842009F8102 /* Main.storyboard */,
+				ECFC07302B3CC843009F8102 /* Assets.xcassets */,
+				ECFC07322B3CC843009F8102 /* LaunchScreen.storyboard */,
+				EC21C1382B4FC4AF003FB973 /* Config.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ECFC075A2B3CC872009F8102 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC075C2B3CC89D009F8102 /* InfoWarModel.swift */,
+				EC572D722B460BDC00B4CD74 /* WarsModel.swift */,
+				ECAAC4182B566BED0065F2DF /* OpenAIModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECFC075B2B3CC885009F8102 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC075E2B3CC934009F8102 /* InfoWarUpSalaApiService.swift */,
+				ECDC78F22B4E7D0000F5931B /* InfoWarChatGptAPICaller.swift */,
+				EC21C1992B502C6F003FB973 /* InfoWarLocalApiService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		ECFC07682B3CD166009F8102 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				ECFC07692B3CD183009F8102 /* InfoWarTableViewIslemleri.swift */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +350,11 @@
 			dependencies = (
 			);
 			name = InfoWar;
+			packageProductDependencies = (
+				ECCD7B932B3EF8CB0029C89B /* Alamofire */,
+				ECDC78F52B4E7D3200F5931B /* SwiftOpenAI */,
+				ECDC78F82B4E7D4300F5931B /* OpenAISwift */,
+			);
 			productName = InfoWar;
 			productReference = ECFC07242B3CC842009F8102 /* InfoWar.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +427,11 @@
 				Base,
 			);
 			mainGroup = ECFC071B2B3CC842009F8102;
+			packageReferences = (
+				ECCD7B922B3EF8CB0029C89B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				ECDC78F42B4E7D3200F5931B /* XCRemoteSwiftPackageReference "SwiftOpenAI" */,
+				ECDC78F72B4E7D4300F5931B /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
 			productRefGroup = ECFC07252B3CC842009F8102 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +448,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC21C1372B4FC45B003FB973 /* Config.plist in Resources */,
 				ECFC07342B3CC843009F8102 /* LaunchScreen.storyboard in Resources */,
+				EC21C1982B502B70003FB973 /* wars.txt in Resources */,
 				ECFC07312B3CC843009F8102 /* Assets.xcassets in Resources */,
 				ECFC072F2B3CC842009F8102 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +477,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC21C13F2B4FDB8F003FB973 /* UIViewController+Extension.swift in Sources */,
+				ECFC075D2B3CC89D009F8102 /* InfoWarModel.swift in Sources */,
+				EC5DBE982B50C09900E6C1BD /* LocalDataWarsDetailVC.swift in Sources */,
+				EC572D712B4602D500B4CD74 /* UpscalaDataDetailVC.swift in Sources */,
+				EC572D732B460BDC00B4CD74 /* WarsModel.swift in Sources */,
+				EC21C1392B4FC4AF003FB973 /* Config.swift in Sources */,
+				EC21C1A02B503069003FB973 /* LocalApiFeedViewController.swift in Sources */,
+				ECFC07652B3CD136009F8102 /* InfoWarUpsalaFeedViewController.swift in Sources */,
 				ECFC072C2B3CC842009F8102 /* ViewController.swift in Sources */,
+				EC21C19A2B502C6F003FB973 /* InfoWarLocalApiService.swift in Sources */,
+				ECDC78F32B4E7D0000F5931B /* InfoWarChatGptAPICaller.swift in Sources */,
+				EC21C1A22B50784F003FB973 /* LocalApiFeedCollectionViewCell.swift in Sources */,
+				ECFC076A2B3CD183009F8102 /* InfoWarTableViewIslemleri.swift in Sources */,
+				ECAAC4192B566BED0065F2DF /* OpenAIModel.swift in Sources */,
+				EC21C1A52B507E41003FB973 /* LocalApiFeedCollectionViewIslemleri.swift in Sources */,
 				ECFC07282B3CC842009F8102 /* AppDelegate.swift in Sources */,
 				ECFC072A2B3CC842009F8102 /* SceneDelegate.swift in Sources */,
+				EC49CA4A2B45AE570083DB6B /* InfoWarTableViewCell.swift in Sources */,
+				ECDC78F12B4E7C6800F5931B /* ChatGPTViewController.swift in Sources */,
+				ECFC075F2B3CC934009F8102 /* InfoWarUpSalaApiService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +843,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECCD7B922B3EF8CB0029C89B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		ECDC78F42B4E7D3200F5931B /* XCRemoteSwiftPackageReference "SwiftOpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftBeta/SwiftOpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+		ECDC78F72B4E7D4300F5931B /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECCD7B932B3EF8CB0029C89B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECCD7B922B3EF8CB0029C89B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		ECDC78F52B4E7D3200F5931B /* SwiftOpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECDC78F42B4E7D3200F5931B /* XCRemoteSwiftPackageReference "SwiftOpenAI" */;
+			productName = SwiftOpenAI;
+		};
+		ECDC78F82B4E7D4300F5931B /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECDC78F72B4E7D4300F5931B /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ECFC071C2B3CC842009F8102 /* Project object */;
 }
